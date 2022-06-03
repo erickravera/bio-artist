@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    height: 15vh;
+    height: 12vh;
     width: 100vw;
     background-image: linear-gradient(140deg,#545454, #000000 40%);
     display:flex;
@@ -35,15 +35,11 @@ header .container {
     justify-content: center;
 }
 
-.logotipo {
-    height: 7vh;
-}
-
 .music__preview {
     box-sizing: content-box;
     width: 85vw;
     height: 40vh;
-    margin: 28% auto 5% auto;
+    margin: 38% auto 5% auto;
 }
 
 .container__preview {
@@ -51,7 +47,7 @@ header .container {
     height: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 25% 25% auto;
     grid-template-rows: 50% 50%;
     border-radius: 40px;
 }
@@ -74,7 +70,7 @@ header .container {
 .music__descrition {
     margin: 20px;
     color: var(--descricao);
-    font-size: 2.0rem;
+    font-size: 1.4rem;
 }
 
 .play__area {
@@ -89,8 +85,8 @@ header .container {
 }
 
 .play-button {
-    width: 40%;
-    margin: 5%;
+    max-width: 90px;
+    margin: 10%;
 }
 
 .chamada {
@@ -106,7 +102,7 @@ header .container {
 .plataformas__chamada {
     color: #ffffff;
     margin: 1.4rem;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     width: 42%;
 }
 
@@ -120,19 +116,20 @@ header .container {
     margin: 0 auto;
     width: 85vw;
     overflow-y: scroll;
-    height: 60vh;
+    height: 40vh;
     text-align: center;
 }
 
 .plataformas__opcoes::-webkit-scrollbar {
     background-color: var(--cor-de-fundo);
-    width: 20px;
+    width: 3px;
     height: 10px;
 }
 
 .plataformas__opcoes::-webkit-scrollbar-thumb {
     background-color: var(--cor-tema);
     border-radius: 40px;
+    width: 3px;
 
 }
 
@@ -141,8 +138,8 @@ header .container {
     background-color: #ffffff;
     height: 10vh;
     width: 95%;
-    margin: 0 auto 5vh 0;
-    border-radius: 40px;
+    margin: 0 auto 3vh 0;
+    border-radius: 25px;
     text-align: center;
 }
 
