@@ -68,7 +68,7 @@ header .container {
 .music__title {
     margin: 20px;
     color:aliceblue;
-    font-size: 4.0rem;
+    font-size: 2.0rem;
 }
 
 .music__descrition {
@@ -90,7 +90,7 @@ header .container {
 
 .play-button {
     width: 40%;
-    margin: 10%;
+    margin: 5%;
 }
 
 .chamada {
@@ -106,7 +106,7 @@ header .container {
 .plataformas__chamada {
     color: #ffffff;
     margin: 1.4rem;
-    font-size: 2.0rem;
+    font-size: 1.1rem;
     width: 42%;
 }
 
