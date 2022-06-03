@@ -57,7 +57,7 @@ header .container {
 }
 
 .music__cover {
-    background: url(/assets/img/pexels-joshua-mcknight-1149363.webp) center / cover no-repeat;
+    background: url("../img/pexels-joshua-mcknight-1149363.webp") center / cover no-repeat;
     object-fit: cover;
     width: 100%;
     grid-column: 1 / 3;
